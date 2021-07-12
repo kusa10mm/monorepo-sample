@@ -1,4 +1,4 @@
-const {getMessage} = require("util1");
+const {getMessage} = require("util");
 
 const main = () => {
     console.log(getMessage);

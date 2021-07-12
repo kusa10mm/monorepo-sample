@@ -1,5 +1,5 @@
 module.exports = {
-    getMessage: "hello kusano"
+    getMessage: "hello kusano from util"
 }
 
 // export const getMessage = () => {
