@@ -1,3 +1,7 @@
-export const getMessage = () => {
-    return "hello kusano";
-};
+module.exports = {
+    getMessage: "hello kusano"
+}
+
+// export const getMessage = () => {
+//     return "hello kusano";
+// };
