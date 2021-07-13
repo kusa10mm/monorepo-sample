@@ -4,9 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": ["not-util/**", "util/**", "helloworld/**"]
+  },
   "scripts": {
     "build": "yarn workspaces run build",
     "start": "node dist/bundle.js"
