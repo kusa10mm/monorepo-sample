@@ -1,7 +1,8 @@
-const {getMessage} = require("util");
+// const {getMessage} = require("util");
+import * as util from "not-util";
 
 const main = () => {
-    console.log(getMessage);
+    console.log(util.getMessage);
     console.log("hello world");
 }
 
