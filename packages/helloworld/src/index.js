@@ -1,4 +1,4 @@
-// const {getMessage} = require("util");
+// const {getMessage} = require("not-util");
 import * as util from "not-util";
 
 const main = () => {

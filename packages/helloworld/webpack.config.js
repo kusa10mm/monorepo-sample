@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
     entry: {
-        bundle: './packages/helloworld/src/index.js'
+        bundle: './src/index.js'
     },
     output: {
         path: path.join(__dirname, 'dist'),
@@ -16,11 +16,5 @@ module.exports = {
         open: true
     },
     module: {
-        rules: [
-            {
-                loader: 'ts-loader',
-                test: /\.ts$/
-            }
-        ]
     }
 }
