@@ -1,7 +1,7 @@
 {
   "name": "not-util",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "src/index.ts",
   "license": "MIT",
   "scripts": {
     "build": "echo build"
