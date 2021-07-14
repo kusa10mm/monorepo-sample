@@ -1,5 +1,5 @@
 import {getMessage} from "not-util";
-// import {getMessage} from "util";
+// import {getMessage} from "careertrek-util";
 
 const main = () => {
     console.log(getMessage);
