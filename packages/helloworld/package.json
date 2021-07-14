@@ -7,6 +7,6 @@
     "build": "webpack --mode=production"
   },
   "dependencies": {
-    "util": "1.0.0"
+    "careertrek-util": "1.0.0"
   }
 }

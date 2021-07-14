@@ -1,1 +1,0 @@
-export const getMessage = "hello kusano from util";
