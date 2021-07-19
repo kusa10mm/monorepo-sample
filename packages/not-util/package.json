@@ -5,5 +5,8 @@
   "license": "MIT",
   "scripts": {
     "build": "echo build"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.948.0"
   }
 }

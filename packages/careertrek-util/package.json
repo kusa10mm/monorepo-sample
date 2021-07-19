@@ -5,5 +5,8 @@
   "license": "MIT",
   "scripts": {
     "build": "echo build"
+  },
+  "dependencies": {
+    "axios": "^0.18.1"
   }
 }
